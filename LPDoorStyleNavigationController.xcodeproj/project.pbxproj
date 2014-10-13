@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		E3A997D119EBCAF600A4A6A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A997D019EBCAF600A4A6A8 /* main.m */; };
 		E3A997D419EBCAF600A4A6A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A997D319EBCAF600A4A6A8 /* AppDelegate.m */; };
-		E3A997D719EBCAF600A4A6A8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A997D619EBCAF600A4A6A8 /* MasterViewController.m */; };
-		E3A997DA19EBCAF600A4A6A8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A997D919EBCAF600A4A6A8 /* DetailViewController.m */; };
-		E3A997DD19EBCAF600A4A6A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A997DB19EBCAF600A4A6A8 /* Main.storyboard */; };
-		E3A997DF19EBCAF600A4A6A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A997DE19EBCAF600A4A6A8 /* Images.xcassets */; };
-		E3A997E219EBCAF600A4A6A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A997E019EBCAF600A4A6A8 /* LaunchScreen.xib */; };
 		E3A997EE19EBCAF600A4A6A8 /* LPDoorStyleNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A997ED19EBCAF600A4A6A8 /* LPDoorStyleNavigationControllerTests.m */; };
+		E3A997FF19EBCB2300A4A6A8 /* SegoeWP-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3A997F719EBCB2300A4A6A8 /* SegoeWP-Black.ttf */; };
+		E3A9980019EBCB2300A4A6A8 /* SegoeWP-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3A997F819EBCB2300A4A6A8 /* SegoeWP-Bold.ttf */; };
+		E3A9980119EBCB2300A4A6A8 /* SegoeWP-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3A997F919EBCB2300A4A6A8 /* SegoeWP-Light.ttf */; };
+		E3A9980219EBCB2300A4A6A8 /* SegoeWP-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3A997FA19EBCB2300A4A6A8 /* SegoeWP-Semibold.ttf */; };
+		E3A9980319EBCB2300A4A6A8 /* SegoeWP-Semilight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3A997FB19EBCB2300A4A6A8 /* SegoeWP-Semilight.ttf */; };
+		E3A9980419EBCB2300A4A6A8 /* SegoeWP.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3A997FC19EBCB2300A4A6A8 /* SegoeWP.ttf */; };
+		E3A9980519EBCB2300A4A6A8 /* LPDoorStyleNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A997FE19EBCB2300A4A6A8 /* LPDoorStyleNavigationController.m */; };
+		E3A9980919EBCB4D00A4A6A8 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A9980719EBCB4D00A4A6A8 /* TestViewController.m */; };
+		E3A9980A19EBCB4D00A4A6A8 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A9980819EBCB4D00A4A6A8 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +37,20 @@
 		E3A997D019EBCAF600A4A6A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3A997D219EBCAF600A4A6A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3A997D319EBCAF600A4A6A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E3A997D519EBCAF600A4A6A8 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		E3A997D619EBCAF600A4A6A8 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		E3A997D819EBCAF600A4A6A8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		E3A997D919EBCAF600A4A6A8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		E3A997DC19EBCAF600A4A6A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E3A997DE19EBCAF600A4A6A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E3A997E119EBCAF600A4A6A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E3A997E719EBCAF600A4A6A8 /* LPDoorStyleNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPDoorStyleNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A997EC19EBCAF600A4A6A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3A997ED19EBCAF600A4A6A8 /* LPDoorStyleNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPDoorStyleNavigationControllerTests.m; sourceTree = "<group>"; };
+		E3A997F719EBCB2300A4A6A8 /* SegoeWP-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SegoeWP-Black.ttf"; sourceTree = "<group>"; };
+		E3A997F819EBCB2300A4A6A8 /* SegoeWP-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SegoeWP-Bold.ttf"; sourceTree = "<group>"; };
+		E3A997F919EBCB2300A4A6A8 /* SegoeWP-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SegoeWP-Light.ttf"; sourceTree = "<group>"; };
+		E3A997FA19EBCB2300A4A6A8 /* SegoeWP-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SegoeWP-Semibold.ttf"; sourceTree = "<group>"; };
+		E3A997FB19EBCB2300A4A6A8 /* SegoeWP-Semilight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SegoeWP-Semilight.ttf"; sourceTree = "<group>"; };
+		E3A997FC19EBCB2300A4A6A8 /* SegoeWP.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SegoeWP.ttf; sourceTree = "<group>"; };
+		E3A997FD19EBCB2300A4A6A8 /* LPDoorStyleNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPDoorStyleNavigationController.h; sourceTree = "<group>"; };
+		E3A997FE19EBCB2300A4A6A8 /* LPDoorStyleNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPDoorStyleNavigationController.m; sourceTree = "<group>"; };
+		E3A9980619EBCB4D00A4A6A8 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		E3A9980719EBCB4D00A4A6A8 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		E3A9980819EBCB4D00A4A6A8 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,15 +92,19 @@
 		E3A997CD19EBCAF600A4A6A8 /* LPDoorStyleNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				E3A9980619EBCB4D00A4A6A8 /* TestViewController.h */,
+				E3A9980719EBCB4D00A4A6A8 /* TestViewController.m */,
+				E3A9980819EBCB4D00A4A6A8 /* TestViewController.xib */,
+				E3A997F719EBCB2300A4A6A8 /* SegoeWP-Black.ttf */,
+				E3A997F819EBCB2300A4A6A8 /* SegoeWP-Bold.ttf */,
+				E3A997F919EBCB2300A4A6A8 /* SegoeWP-Light.ttf */,
+				E3A997FA19EBCB2300A4A6A8 /* SegoeWP-Semibold.ttf */,
+				E3A997FB19EBCB2300A4A6A8 /* SegoeWP-Semilight.ttf */,
+				E3A997FC19EBCB2300A4A6A8 /* SegoeWP.ttf */,
+				E3A997FD19EBCB2300A4A6A8 /* LPDoorStyleNavigationController.h */,
+				E3A997FE19EBCB2300A4A6A8 /* LPDoorStyleNavigationController.m */,
 				E3A997D219EBCAF600A4A6A8 /* AppDelegate.h */,
 				E3A997D319EBCAF600A4A6A8 /* AppDelegate.m */,
-				E3A997D519EBCAF600A4A6A8 /* MasterViewController.h */,
-				E3A997D619EBCAF600A4A6A8 /* MasterViewController.m */,
-				E3A997D819EBCAF600A4A6A8 /* DetailViewController.h */,
-				E3A997D919EBCAF600A4A6A8 /* DetailViewController.m */,
-				E3A997DB19EBCAF600A4A6A8 /* Main.storyboard */,
-				E3A997DE19EBCAF600A4A6A8 /* Images.xcassets */,
-				E3A997E019EBCAF600A4A6A8 /* LaunchScreen.xib */,
 				E3A997CE19EBCAF600A4A6A8 /* Supporting Files */,
 			);
 			path = LPDoorStyleNavigationController;
@@ -204,9 +216,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A997DD19EBCAF600A4A6A8 /* Main.storyboard in Resources */,
-				E3A997E219EBCAF600A4A6A8 /* LaunchScreen.xib in Resources */,
-				E3A997DF19EBCAF600A4A6A8 /* Images.xcassets in Resources */,
+				E3A9980319EBCB2300A4A6A8 /* SegoeWP-Semilight.ttf in Resources */,
+				E3A9980419EBCB2300A4A6A8 /* SegoeWP.ttf in Resources */,
+				E3A9980119EBCB2300A4A6A8 /* SegoeWP-Light.ttf in Resources */,
+				E3A9980A19EBCB4D00A4A6A8 /* TestViewController.xib in Resources */,
+				E3A9980019EBCB2300A4A6A8 /* SegoeWP-Bold.ttf in Resources */,
+				E3A9980219EBCB2300A4A6A8 /* SegoeWP-Semibold.ttf in Resources */,
+				E3A997FF19EBCB2300A4A6A8 /* SegoeWP-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A9980919EBCB4D00A4A6A8 /* TestViewController.m in Sources */,
 				E3A997D419EBCAF600A4A6A8 /* AppDelegate.m in Sources */,
-				E3A997D719EBCAF600A4A6A8 /* MasterViewController.m in Sources */,
+				E3A9980519EBCB2300A4A6A8 /* LPDoorStyleNavigationController.m in Sources */,
 				E3A997D119EBCAF600A4A6A8 /* main.m in Sources */,
-				E3A997DA19EBCAF600A4A6A8 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,25 +264,6 @@
 			targetProxy = E3A997E819EBCAF600A4A6A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E3A997DB19EBCAF600A4A6A8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3A997DC19EBCAF600A4A6A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E3A997E019EBCAF600A4A6A8 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3A997E119EBCAF600A4A6A8 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E3A997EF19EBCAF600A4A6A8 /* Debug */ = {
@@ -350,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LPDoorStyleNavigationController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LPDoorStyleNavigationController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

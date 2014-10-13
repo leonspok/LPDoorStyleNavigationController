@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "DetailViewController.h"
+#import "LPDoorStyleNavigationController.h"
+#import "TestViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +18,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    LPDoorStyleNavigationController *viewController = [[LPDoorStyleNavigationController alloc] initWithRootViewController:[[TestViewController alloc] initWithNibName:NSStringFromClass(TestViewController.class) bundle:nil]];
+    [viewController setNavigationBarHidden:YES];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = viewController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
