@@ -24,6 +24,8 @@
 
 #import "LPDoorStyleNavigationController.h"
 
+#define ANIMATION_NAME @"LPDoorStylePushAnimation"
+
 @implementation LPDoorStyleNavigationController
 
 - (id)init {
@@ -139,7 +141,7 @@
             break;
     }
     
-    [UIView beginAnimations:@"LPDoorStylePushAnimation" context:nil];
+    [UIView beginAnimations:ANIMATION_NAME context:nil];
     [UIView setAnimationDuration:duration*1/3];
     [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
     {
@@ -169,7 +171,7 @@
         toViewController.view.layer.transform = presentTransform;
         toViewController.view.layer.opacity = 0.0f;
         
-        [UIView beginAnimations:@"LPDoorStylePushAnimation" context:nil];
+        [UIView beginAnimations:ANIMATION_NAME context:nil];
         [UIView setAnimationDuration:duration*2/3];
         [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
         {
@@ -228,7 +230,7 @@
             break;
     }
     
-    [UIView beginAnimations:@"LPDoorStylePushAnimation" context:nil];
+    [UIView beginAnimations:ANIMATION_NAME context:nil];
     [UIView setAnimationDuration:duration*1/3];
     [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
     {
@@ -260,7 +262,7 @@
         toViewController.view.layer.transform = presentTransform;
         toViewController.view.layer.opacity = 0.0f;
         
-        [UIView beginAnimations:@"LPDoorStylePushAnimation" context:nil];
+        [UIView beginAnimations:ANIMATION_NAME context:nil];
         [UIView setAnimationDuration:duration*2/3];
         [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
         {
